@@ -1,0 +1,269 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #f4f4f4 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .logo img {
+    float: left;
+    height: 70px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #f4f4f4;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #ddd;
+}
+
+#home {
+    padding: 50px 0;
+    text-align: center;
+    background: url('photo40.jpeg') no-repeat center center/cover;
+    color: #fff;
+}
+
+#home .btn {
+    display: inline-block;
+    color: #fff;
+    background: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#home .btn:hover {
+    background: #555;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about .about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-logo img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#services .service-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#services .service {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#services .service img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#services .service h3 {
+    margin-top: 20px;
+}
+
+#services .service p {
+    margin: 20px 0;
+}
+
+#services .service .btn {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#booking {
+    background: #f9f9f9;
+    padding: 40px 0;
+}
+
+#booking h2 {
+    margin-bottom: 20px;
+}
+
+#booking form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#booking input[type="text"],
+#booking input[type="email"],
+#booking input[type="tel"],
+#booking textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#booking input[type="submit"] {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+#contact ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+#contact ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+footer .footer-column {
+    flex: 1;
+    margin: 10px;
+}
+
+footer .footer-column h4 {
+    margin-bottom: 10px;
+}
+
+footer .footer-column ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .footer-column ul li {
+    margin-bottom: 10px;
+}
+
+footer .footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+#whatsapp-chatbox {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#whatsapp-chatbox img {
+    width: 50px;
+    height: 50px;
+}
+
+#portfolio .container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#portfolio h2 {
+    margin-bottom: 20px;
+}
+
+#portfolio p {
+    font-size: 16px;
+}
+
+#portfolio a {
+    color: #333;
+    text-decoration: none;
+}
+
+#portfolio a:hover {
+    text-decoration: underline;
+}
